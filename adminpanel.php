@@ -74,7 +74,7 @@ if(!isset($usuario)){
         <a class="nav-link" href="index.php/#oradores">Dar una Charla</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="admin.php">Login</a>
+        <a class="nav-link" href="./panel/salir.php">Cerrar Sesión</a>
       </li>
     </ul>
   </div>
