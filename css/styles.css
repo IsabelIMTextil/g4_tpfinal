@@ -24,6 +24,10 @@
   max-height: 100px;
 }
 
+#carru{
+    z-index: 1 !important;
+}
+
 #arq {
   background-color: rgb(143, 136, 119);
   color: aliceblue;

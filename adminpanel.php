@@ -8,17 +8,17 @@ if(!isset($usuario)){
 
 }else{
 
-    echo "<h1> Bienvenido $usuario</h1>";
+   
 
-    $servername = "localhost";
+    /*$servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "Oradores_textiles";
+    $dbname = "oradores_textiles";*/
     
-   /*  $servername = "localhost";
-    $username = "id21574541_isabel";
+   $servername = "localhost";
+    $username = "id21667679_isabel";
     $password = "Isa1234.";
-    $dbname = "id21574541_oradores_textiles"; */
+    $dbname = "id21667679_oradores_textiles";
     
     $conn = new mysqli($servername, $username, $password, $dbname);
     
@@ -45,58 +45,48 @@ if(!isset($usuario)){
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link rel="stylesheet" href="../css/styles.css">
+        <!-- -------Favicon------- -->
+    <link rel="icon" type="image/png"  href="./imagenes/logo.png">
         <title>Oradores</title>
     </head>
     <body>
     
     <header>
                
-      <nav class="navbar navbar-expand-md navbar-light bg-light navbar-fixed-top">
-    
-        <div class="container-fluid">
-          
-          <a href="../index.php"><img src="./imagenes/logo.png" alt="Logo" width="150" height="70" class="d-inline-block align-text-top"></a>
-          
-    
-          <!-- <a class="navbar-brand m-1" href="#"><strong>Charlas y talleres</strong></a>
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarSupportedContent"> -->
-            <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-light text-center">
-              <li class="nav-item">
-                <a class="nav-link" href="#nuevo">Lugar y fecha</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#charlas">Charlas y vídeos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#talleres">Talleres: reservá tu lugar</a>
-              </li> -->
-              
-              <!-- <li class="nav-4">
-                <a class="nav-link active" aria-current="page" href="#presentacion">Dar una charla</a>
-              </li> -->
-              <!-- <li> <a  class="nav-link active" href="tickets.php"  target="_parent">Tickets</a></li> -->
-               <li> <a  class="nav-link active login-nav " href="./panel/salir.php"  target="_parent">CERRAR SESIÓN</a></li>
-          
-          
-          
-                          
-           
-            </ul>
-           
-          </div>
-        </div>
-    </nav> 
+     <nav class="navbar navbar-expand-lg navbar-light p-1 text-center">
+  <a class="p-1" href="index.php"><img src="../imagenes/logo.png" alt="" style="widh:50px; height: 50px;"></a>
+  <a class="navbar-brand"><strong>Charlas y talleres</strong></a>
+  <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon  text-white"></span>
+  </button>
+  <div class="collapse navbar-collapse bg-white" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.php/#arq">Lugar y Fecha</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php/#charlas">Charlas y Videos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php/#talleres">Talleres Reserva</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php/#oradores">Dar una Charla</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="admin.php">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
     
     </header>
     <!--  termina  nav  -->
     
     <br><br>
     <div>
-    <h1 class="text-center">Lista de Expositores</h1>
+         <h1 class="text-center">Bienvenid@ <?php echo "$usuario" ?></h1>
+    <h2 class="text-center">Lista de Expositores</h2>
     </div>
 
     <div class="row">
@@ -148,8 +138,8 @@ if(!isset($usuario)){
           <td class="col-3"><?= $row['tema'] ?></td>
           <td class="col-2">
           <div class="col">
-          <a href="<?php echo $row['id_orador'];?>"><button type="button" class="btn btn-primary" > EDITAR</button></a> 
-        <a href="./eliminar.php?id=<?php echo $row['id_orador'];?>"><button type="button" class="btn btn-danger" >BORRAR</button>
+          <a href="./editar.php?id=<?php echo $row['id_orador']?>"><button type="button" class="btn btn-primary editbtn" > EDITAR</button></a>
+        <a href="eliminar.php?id=<?php echo $row['id_orador'];?>" onclick="alert("se va a borrar")" ><button type="button" class="btn btn-danger" onclick="alert("se va a borrar")" >BORRAR</button>
         </div>
           </td>
           
@@ -169,12 +159,13 @@ if(!isset($usuario)){
     }
     ?>   
     
-    
-    
-    
-    
-    
-       
+    <script src="./js/sweet.js">
+        
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
      
     </body>
@@ -183,6 +174,4 @@ if(!isset($usuario)){
     
 <?php
 }
-?>
-
 ?>
