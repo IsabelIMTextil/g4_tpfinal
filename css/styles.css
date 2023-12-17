@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  box-shadow: 0px 2px 5px #777;
+  height: 80px;
+}
+
+.nav-link {
+  color: black !important;
+  font-size: small;
+}
+.nav-link:hover {
+  background-color: #f9c74f;
+}
+.login-nav {
+  margin-left: 430px;
+}
+
+.container {
+  max-height: 100px;
+}
+
+#arq {
+  background-color: rgb(143, 136, 119);
+  color: aliceblue;
+  box-shadow: 0px 2px 5px #777;
+}
+
+#textil {
+  box-shadow: 0px 2px 5px #777;
+}
+
+#charlas {
+  text-align: center;
+  /* background-color: #f9c74f; */
+}
+
+.card-responsive:hover {
+  transform: scale(1.1);
+}
+
+#nuevo {
+  background-color: #f9c74f;
+}
+
+/* form {
+    margin-top: 10px;
+    text-align: center;
+    } */
+
+/* #cupo {
+    width: 500px;
+    justify-content: center;
+    } */
+
+/* .mb-3 {
+    padding-top: 20px;
+    width: 500px;} */
+
+/* .d-grid {
+    width: 500px;} */
+
+#submit {
+  border-radius: 7px;
+  border-color: #0a0a09;
+}
+
+#footer {
+  height: 150px;
+  margin-top: 500px;
+  background-color: rgb(143, 136, 119;
+}
+
+/* .navbar {
+        background: rgba(0, 0, 0, 0.178);
+    } */
+
+/* 
+https://www.forosdelweb.com/f53/situar-footer-siempre-final-pagina-1055757/ */
+
+p {
+  text-shadow: 40px 40px 50px #0005 !important;
+}

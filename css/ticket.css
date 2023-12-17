@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    box-shadow: 0px 2px 5px #777;
+    height: 70px;
+    width: 100%;
+   }
+
+
+/* cards */
+.contenedor{      
+    height: 400px;
+    width: 100%;
+    background-color: rgb(fff);
+    padding: 5px; 
+    margin-top: 10px;
+}
+
+
+
+/* valor tickets + cantidad + categorias */
+.container{
+    height: auto;
+    width: 100%;
+    background-color: rgb(fff);
+    padding: 5px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    text-align: center;    
+   }
+
+/*nombre + apellido + mail*/
+.form{
+    height: 250px;
+    width: 500px;
+    background-color: rgb(fff);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 250px;
+    
+}
+
+#nombre{
+    width: 100px;
+    margin-left: 100px;
+}
+#correo{
+    width: 500px;
+}
+
+#resultado{
+    width: 600px;
+    
+}
+
+#borrar{
+    width: 260px;
+    background-color: rgb(167, 193, 96);
+    color: #fff;
+}
+#resumen{
+    width: 260px;
+    background-color: rgb(167, 193, 96);
+}
+
+.row{
+    padding: 5px;
+}
+

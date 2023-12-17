@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    box-shadow: 0px 2px 5px #777;
+    height: 70px;
+    width: 100%;
+   }
+
+
+/* cards */
+.contenedor{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(fff);
+    padding: 5px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item1{
+    width: 220px;
+    height: 300px;
+   background-color: rgb(214, 214, 243);
+    border-radius: 5px;
+    padding: 20px;
+       /* min-width: 300px; */
+}
+
+.item2{
+    width: 220px;
+    height: 300px;
+   border-radius: 5px;
+    background-color: rgb(211, 244, 215);
+    padding: 20px;
+}
+
+.item3{
+    width: 220px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: rgb(243, 225, 210);
+    padding: 20px;
+}
+
+.item4{
+    width: 50px;
+    height: 100px;
+    background-color: rgb(fff);
+}
+
+.item5{
+    width: 50px;
+    height: 100px;
+    background-color: rgb(fff);
+}
+
+/*@media (max-width: 600px){
+    .item1, .item2, .item3{
+        width: 100%;
+        height: 300px;
+    padding: 20px;
+    font-size: small;
+    color: aliceblue;
+    }
+    .contenedor{padding: 0px;}
+    .item1{
+        background-color: rgb(94, 94, 136);
+    }
+    .item2{
+        background-color: rgb(34, 152, 56);
+    }
+    .item3{
+        background-color: rgb(187, 144, 43);
+    }
+}
+@media (max-width: 900px){
+    .contenedor{padding: 10px;}
+}*/
+
+/* valor tickets + cantidad + categorias */
+.container{
+    height: auto;
+    width: 100%;
+    background-color: rgb(fff);
+    padding: 5px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    text-align: center;   
+}
+
+/*nombre + apellido + mail*/
+.form{
+    height: 250px;
+    width: 500px;
+    background-color: rgb(fff);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 250px;
+    
+}
+
+#nombre{
+    width: 100px;
+    margin-left: 100px;
+}
+#correo{
+    width: 500px;
+}
+
+#resultado{
+    width: 600px;
+}
+
+#borrar{
+    width: 260px;
+    background-color: rgb(167, 193, 96);
+    color: #fff;
+}
+#resumen{
+    width: 260px;
+    background-color: rgb(167, 193, 96);
+}
+
+.row{
+    padding: 5px;
+}
+
