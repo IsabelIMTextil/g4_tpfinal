@@ -1,8 +1,9 @@
 <?php
 
-echo "<h2> Eliminiar!!!! </h2>";
 
 require "./panel/conexion.php";
+
+
 
 $id = $_GET['id'];
 
@@ -13,9 +14,11 @@ $queryEliminar = "DELETE FROM oradores WHERE id_orador = '$id'";
 
 $deleteRegistro = mysqli_query($conexion,$queryEliminar);
 
-if($deleteRegistro){
-header("location: ./adminpanel.php");
-}
+header("location: adminpanel.php");
 
+
+echo "<h2> Se ha eliminado el registro!!!! </h2>";
 
 ?>
+
+

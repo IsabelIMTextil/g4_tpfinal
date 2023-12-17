@@ -9,7 +9,7 @@ require "./pages/header.php";
   <head>
     <meta charset="utf-8">
     <title>Admin</title>
-    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="stylesheet" href="./css/admin.css"?>
   </head>
   <body>
     <div class="center">
@@ -32,9 +32,7 @@ require "./pages/header.php";
         </div>
       </form>
     </div>
-    <div class="espacio">
-
-    </div>
+    
   </body>
 </html>
 

@@ -7,7 +7,7 @@
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="imagenes/wichi.jpg" class="d-block w-100" alt="Textiles Wichí" style="height:300px;">
+                    <img src="imagenes/wichí.jpg" class="d-block w-100" alt="Textiles Wichí" style="height:300px;">
                     <div class="carousel-caption text-right caption-center">
                       <h2 class="bg-dark">Textiles tradicionales del territorio argentino</h2>
                       <p>Charlas sobre cultura, lengua y cosmovisión de los pueblos originarios de Argentina. Talleres sobre técnicas textiles Wichí, Mapuche y del NOA.</p>
@@ -53,52 +53,55 @@
 
             
                 <!-- comienzan las cards -->
- <div class="body">
+            <div class="body">
             
-  <div id="charlas">
-  <h2>Charlas sobre pueblos originarios</h2>
-    <h5> Cultura, lengua, cosmovisión y técnicas textiles</h5>
-   </div>
-
-    <div class="row">
-       <div class="card-group">
+                <div id="charlas">
+                    <h2>Charlas sobre pueblos originarios</h2>
+                    <h5> Cultura, lengua, cosmovisión y técnicas textiles</h5>
+                </div>
+                  <div class="row">
+                        <div class="card-group">
                              
-         <div class="col"> </div>
-
-         <div class="col m-3">
-      <div class="card-responsive">
-      <img src="imagenes/wichi-tec.jpeg" class=" img-thumbnail rounded" alt="técnica textil wichí">
-      <div class="card-body p-0">
-      <button type="button" class="btn btn-warning btn-sm">Charla y vídeo</button>
-      <button type="button" class="btn btn-outline-success">Demostración</button>
-       <h5 class="card-title">Tejido Wichí </h5>
-      <p class="card-text row-4">Los tejidos de la cultura Wichí se realizan con la fibra de chaguar o caraguatá, una planta que se usa desde tiempos prehispánicos con fines... </p>
-    <!-- <p class="card-text"><small class="text-body-secondary">más...</small></p> -->
-  <?php echo "<td><a class='button [btn btn-warning btn-block]'href='pages/wichi.php' target='_blank'>más...</a></td></tr>";     ?>
-    </div>
-         </div>
-    </div>
-
-    <div class="col m-3">
-   <div class="card-responsive">
-    <img src="imagenes/mapuche-tec.jpeg" class="img-thumbnail rounded" alt="técnica textil mapuche">
-     <div class="card-body p-0">
-     <button type="button" class="btn btn-warning btn-sm">Charla</button>
-       <button type="button" class="btn btn-outline-success">Demostración</button>
-        <h5 class="card-title">Técnica textil Mapuche</h5>
-       <p class="card-text">Los tejidos de la cultura Mapuche se realizan en telar vertical o "witral", que en lengua mapuche...</p>
-    <!-- <p class="card-text"><small class="text-body-secondary">más...</small></p> -->
-   <?php echo "<td><a class='button [btn btn-warning btn-block]'href='pages/mapuche.php' target='_blank'>más...</a></td></tr>"; ?>
+                        <div class="col"> </div>
+                        <div class="col m-3">
+                          <div class="card-responsive">
+                            <img src="imagenes/wichi-tec.jpeg" class=" img-thumbnail rounded" alt="técnica textil wichí">
+                            <div class="card-body p-0">
+                              <button type="button" class="btn btn-warning btn-sm">Charla y vídeo</button>
+                              <button type="button" class="btn btn-outline-success">Demostración</button>
+                              <h5 class="card-title">Tejido Wichí </h5>
+                              <p class="card-text row-4">Los tejidos de la cultura Wichí se realizan con la fibra de chaguar o caraguatá, una
+                                planta que se usa desde tiempos prehispánicos con fines... </p>
+                              <!-- <p class="card-text"><small class="text-body-secondary">más...</small></p> -->
+                  <?php
+                  echo "<td><a class='button [btn btn-warning btn-block]'href='pages/wichi.php' target='_blank'>más...</a></td></tr>"; 
+                  ?>
 
                             </div>
                           </div>
                         </div>
+                        <div class="col m-3">
+                          <div class="card-responsive">
+                            <img src="imagenes/mapuche-tec.jpeg" class="img-thumbnail rounded" alt="técnica textil mapuche">
+                            <div class="card-body">
+                              <button type="button" class="btn btn-warning btn-sm">Charla</button>
+                              <button type="button" class="btn btn-outline-success">Demostración</button>
+                              <h5 class="card-title">Técnica textil Mapuche</h5>
+                              <p class="card-text">Los tejidos de la cultura Mapuche se realizan en telar vertical o "witral", que en
+                                lengua mapuche...</p>
+                              <!-- <p class="card-text"><small class="text-body-secondary">más...</small></p> -->
+                              <?php
+                  
+                  echo "<td><a class='button [btn btn-warning btn-block]'href='pages/mapuche.php' target='_blank'>más...</a></td></tr>"; 
+?>
 
-
+                            </div>
+                          </div>
+                        </div>
                         <div class="col m-3">
                           <div class="card-responsive">
                             <img src="imagenes/diaguita-tec.jpeg" class="img-thumbnail rounded" alt="técnica textil del NOA">
-                            <div class="card-body p-0">
+                            <div class="card-body">
                               <button type="button" class="btn btn-warning btn-sm">Charla y vídeos</button>
                               <button type="button" class="btn btn-outline-success" >Demostración</button>
                               <h5 class="card-title">Técnica textil del NOA</h5>

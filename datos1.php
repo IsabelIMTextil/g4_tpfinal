@@ -1,11 +1,11 @@
 <?php
 echo "probando la base de datos";
-// /*
-// echo $_POST["nombre"];
-// echo $_GET["apellido"];
-// echo $_GET["correo"];
-// echo $_GET["telefono"];
-// echo $_GET["comentario"];**/
+
+/* echo $_POST["nombre"];
+echo $_GET["apellido"];
+echo $_GET["correo"];
+echo $_GET["telefono"];
+echo $_GET["comentario"]; */
 
 // requiere("phpintegrador1/utiles/conexion.php");
 
@@ -26,11 +26,11 @@ require_once 'pages/conexion.php';
 //     echo "<br>   Error al incluir el archivo";
 // }
 
-$nombre= $_POST["nombre"]; 
-$apellido=$_POST["apellido"]; ; 
-$mail= $_POST["correo"]; ;
-$telefono=$_POST["telefono"]; ; 
-$tema=$_POST["comentario"]; ;
+$nombre= $_POST['nombre']; 
+$apellido=$_POST['apellido']; 
+$mail= $_POST['correo'];
+$telefono=$_POST['telefono'];
+$tema=$_POST['comentario'];
 
   $conexion = new conections();
  $conexionMysql = $conexion->conect();
@@ -61,12 +61,9 @@ $tema=$_POST["comentario"]; ;
 
 
  // Redirección a otra página
- header("Location:index.php");
+ //header("Location:/index.php");
  //exit(); // Asegúrate de detener la ejecución del script después de la redirección
 
 //  echo "<a href=\"\/phpintegrador1\/index.php\"'>Ir a Ejemplo</a>";
  echo "<a href='index.php'> Ir a inicio de index</a>";
-
- exit(); // Asegúrate de detener la ejecución del script después de la redirección
 ?>
-
