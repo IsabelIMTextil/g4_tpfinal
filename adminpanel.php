@@ -54,7 +54,7 @@ if(!isset($usuario)){
     <header>
                
      <nav class="navbar navbar-expand-lg navbar-light p-1 text-center">
-  <a class="p-1" href="index.php"><img src="../imagenes/logo.png" alt="" style="widh:50px; height: 50px;"></a>
+  <a class="p-1" href="index.php"><img src="../imagenes/logo.png" alt="" style="width:50px; height:50px;"></a>
   <a class="navbar-brand"><strong>Charlas y talleres</strong></a>
   <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon  text-white"></span>
@@ -74,7 +74,11 @@ if(!isset($usuario)){
         <a class="nav-link" href="index.php/#oradores">Dar una Charla</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="admin.php">Login</a>
+
+     
+
+        <a class="nav-link" href="./panel/salir.php">Cerrar Sesión</a>
+
       </li>
     </ul>
   </div>
@@ -139,7 +143,7 @@ if(!isset($usuario)){
           <td class="col-2">
           <div class="col">
           <a href="./editar.php?id=<?php echo $row['id_orador']?>"><button type="button" class="btn btn-primary editbtn" > EDITAR</button></a>
-        <a href="eliminar.php?id=<?php echo $row['id_orador'];?>" onclick="alert("se va a borrar")" ><button type="button" class="btn btn-danger" onclick="alert("se va a borrar")" >BORRAR</button>
+        <a href="eliminar.php?id=<?php echo $row['id_orador'];?>" onclick="alert('se va a borrar')" ><button type="button" class="btn btn-danger" onclick="alert('se va a borrar')" >BORRAR</button>
         </div>
           </td>
           

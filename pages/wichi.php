@@ -16,7 +16,11 @@
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
  
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"><title>WICHI</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"><title>NOA</title>
+
 </head>
 <body>
     
@@ -42,7 +46,7 @@
   </div>
 </div>-->
 <nav class="navbar navbar-expand-lg navbar-light p-1 text-center z-2">
-  <a class="p-1" href="../index.php"><img src="../imagenes/logo.png" alt="" style="widh:50px; height: 50px;"></a>
+  <a class="p-1" href="../index.php"><img src="../imagenes/logo.png" alt="" style="height:50px;"></a>
   <a class="navbar-brand"><strong>Charlas y talleres</strong></a>
   <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon  text-white"></span>
@@ -80,7 +84,7 @@
     <div class="card">
       <img  src="../imagenes/maria.png" class=" img-thumbnail rounded" alt="María del Carmen Toribio" width="500px" height="500px" style="border: 1px solid #000;">
       <div class="card-body">
-        <h5 class="card-title"  style="width: 500px;">María del Carmen Toribio - Cultura Wichí</h5>
+        <h5 class="card-title"  style="width: 450px;">María del Carmen Toribio - Cultura Wichí</h5>
         <p>De Ing. Juárez, Formosa. </p>
         <p>Desde temprana edad aprendió la artesanía milenaria del chaguar, tesoro del monte de donde se obtienen los hilos. Genedora de importantes premios, como el Primer Premio del Concurso de Artesanías organizado por Fondo Nacional de las Artes.</p>
         
@@ -139,8 +143,12 @@
     <div class="card">
       <img src="../imagenes/palosanto.jpeg" class="img-thumbnail rounded" alt="artesanía en palo santo" width="500"  height="500" style="border: 1px solid #000;">
       <div class="card-body">
+
         <h5 class="card-title"  style="width: 450px;">El palo santo</h5>
         <p class="card-text" >es un árbol nativo del Gran Chaco sudamericano, su madera es muy preciada. Los wichís la usan para tratamientos médicos, y para tallar o tornear utensilios de cocina y artesanías que representan la fauna del monte. Por otra parte, existe la creencia de qu el humo de esta madera ahuyenta los espíritus malignos. De ella se obtiene el color azul verdoso, y de las hojas del palo santo, el amarillo para teñir textiles</p>
+
+        
+
         <p  style="width: 450px;">Actualmente se confeccionan redes y despeinadoras para la pesca, que es la base económica de los pueblos de la región chaqueña</p>
       </div>
     </div>

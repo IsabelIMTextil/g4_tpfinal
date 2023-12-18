@@ -18,7 +18,7 @@
 <header class="z-2">
            
   <nav class="navbar navbar-expand-lg navbar-light p-1 text-center z-2">
-  <a class="p-1" href="../index.php"><img src="../imagenes/logo.png" alt="" style="widh:50px; height: 50px;"></a>
+  <a class="p-1" href="../index.php"><img src="./imagenes/logo.png" alt="Logo" style=" height: 50px;"></a>
   <a class="navbar-brand"><strong>Charlas y talleres</strong></a>
   <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon  text-white"></span>

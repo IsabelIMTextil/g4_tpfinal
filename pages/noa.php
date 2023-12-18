@@ -25,7 +25,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light p-1 text-center z-2">
-  <a class="p-1" href="../index.php"><img src="../imagenes/logo.png" alt="" style="widh:50px; height: 50px;"></a>
+  <a class="p-1" href="../index.php"><img src="../imagenes/logo.png" alt="" style="height: 50px;"></a>
   <a class="navbar-brand"><strong>Charlas y talleres</strong></a>
   <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon  text-white"></span>
@@ -91,10 +91,11 @@
   </div>
   <div class="col">
     <div class="card">
-    <img src="../imagenes/noa_telarcintura.jpeg" class="img-thumbnail rounded" alt="faja en telar de cintura" width="500"  height="500" style="border: 1px solid #000;">
+      <img src="../imagenes/noa_jerga.jpeg" class="img-thumbnail rounded" alt="jerga tejida" width="500"  height="500" style="border: 1px solid #000;">
+
       <div class="card-body">
-        <h5 class="card-title"  style="width: 450px;">Telar de cintura</h5>
-        <p class="card-text" >El telar de cintura es la técnica de tejido nativa del NOA. Foto: faja realizada en telar de cintura por Rita Peñaloza, Maimará, jujuy.</p>
+        <h5 class="card-title"  style="width: 450px;">Producción textil en el noroeste</h5>
+        <p class="card-text" >Para transformar el color original del hilo se utilizan colorantes naturales o sintéticos. Los tintes naturales son los que están presentes en células vegetales y animales, y los sintéticos se logran a través de compuestos y reacciones químicas. En algunas regiones, estos últimos son los elegidos para la producción de artesanías con alta demanda comercial. El teñido de textiles empieza con la cosecha y la recolección de las plantas tintóreas, sigue con la extracción del tinte específico y termina con la tinción. Muchas veces se agregan mordientes, sustancias que fijan o modifican el color para conseguir más tonalidades. En estos procesos participa toda la comunidad. </p>
       </div>
     </div>
   </div>
@@ -114,14 +115,18 @@
   </div>
   <div class="col">
     <div class="card">
-    <img src="../imagenes/noa_jerga.jpeg" class="img-thumbnail rounded" alt="jerga tejida" width="500"  height="500" style="border: 1px solid #000;">
+      <img src="../imagenes/noa_telarcintura.jpeg" class="img-thumbnail rounded" alt="faja en telar de cintura" width="500"  height="500" style="border: 1px solid #000;">
+
       <div class="card-body">
-        <h5 class="card-title"  style="width: 450px;">Producción textil en el noroeste</h5>
-        <p class="card-text" >Para transformar el color original del hilo se utilizan colorantes naturales o sintéticos. Los tintes naturales son los que están presentes en células vegetales y animales, y los sintéticos se logran a través de compuestos y reacciones químicas. En algunas regiones, estos últimos son los elegidos para la producción de artesanías con alta demanda comercial. El teñido de textiles empieza con la cosecha y la recolección de las plantas tintóreas, sigue con la extracción del tinte específico y termina con la tinción. Muchas veces se agregan mordientes, sustancias que fijan o modifican el color para conseguir más tonalidades. En estos procesos participa toda la comunidad. </p>
+        <h5 class="card-title"  style="width: 450px;">Telar de cintura</h5>
+        <p class="card-text" >El telar de cintura es la técnica de tejido nativa del NOA. Foto: faja realizada en telar de cintura por Rita Peñaloza, Maimará, jujuy.</p>
       </div>
     </div>
   </div>
 </div>
+
+
+
 
 
 
@@ -140,15 +145,10 @@
 </div>
 
 
+
     
   </div>
 </div>
-
-
-
-
-
-
 
 
 
