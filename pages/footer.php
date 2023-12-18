@@ -14,6 +14,9 @@
       <th scope="col" >Desde Buenos Aires, Argentina</th>
       <th scope="col">Vías de contacto</th>
       
+
+
+      
     </tr>
   </thead>
   <tbody>
