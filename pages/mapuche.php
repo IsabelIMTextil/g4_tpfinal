@@ -98,8 +98,8 @@
     <div class="card">
       <img src="../imagenes/guardaatada.jpeg" class="img-thumbnail rounded" alt="Técnica guarda atada" width="500"  height="500" style="border: 1px solid #000;">
       <div class="card-body">
-        <h5 class="card-title">Guarda atada o ikat</h5>
-        <p class="card-text"  style="width: 450px;">Para teñir los tejidos, una técnica característica es la "guarda atada o ikat". Se arma la urdimbre con lana sin teñir. Luego se hacen atados pequeños con hilos de urdimbre, se los recubre con tierra blanca mezclada con agua y se amarran con fibras vegetales o lana. Después toda la urdimbre se retira del telar y se sumerge en el tinte. Una vez teñida, se vuelve a colocar en el telar, se desatan las ataduras por partes y se empieza a tejer. Los lugares a los que no llegó el color ayudan a generar patrones.</p>
+        <h5 class="card-title"  style="width: 450px;">Guarda atada o ikat</h5>
+        <p class="card-text" >Para teñir los tejidos, una técnica característica es la "guarda atada o ikat". Se arma la urdimbre con lana sin teñir. Luego se hacen atados pequeños con hilos de urdimbre, se los recubre con tierra blanca mezclada con agua y se amarran con fibras vegetales o lana. Después toda la urdimbre se retira del telar y se sumerge en el tinte. Una vez teñida, se vuelve a colocar en el telar, se desatan las ataduras por partes y se empieza a tejer. Los lugares a los que no llegó el color ayudan a generar patrones.</p>
       </div>
     </div>
   </div>
@@ -129,8 +129,8 @@
     <div class="card">
       <img src="../imagenes/caballo.png" class="img-thumbnail rounded" alt="pelero" width="500"  height="500" style="border: 1px solid #000;">
       <div class="card-body">
-        <h5 class="card-title">El caballo llega al sur</h5>
-        <p class="card-text"  style="width: 450px;">Cuando llegaron los conquistadores españoles, uno de los cambios que introdujeron en el estilo de vida de estas comunidades fue la incorporación del caballo. A partir de entonces, la confección de tejidos ya no se destinó sólo a la vestimenta o al abrigo, sino también a los aperos para los caballos. En esas piezas textiles se sumaron otros materiales (cueros y metales) y nuevas técnicas.</p>
+        <h5 class="card-title"  style="width: 450px;">El caballo llega al sur</h5>
+        <p class="card-text" >Cuando llegaron los conquistadores españoles, uno de los cambios que introdujeron en el estilo de vida de estas comunidades fue la incorporación del caballo. A partir de entonces, la confección de tejidos ya no se destinó sólo a la vestimenta o al abrigo, sino también a los aperos para los caballos. En esas piezas textiles se sumaron otros materiales (cueros y metales) y nuevas técnicas.</p>
       </div>
     </div>
   </div>

@@ -66,9 +66,9 @@
                         <div class="col m-3">
                           <div class="card-responsive">
                             <img src="imagenes/wichi-tec.jpeg" class=" img-thumbnail rounded" alt="técnica textil wichí">
-                            <div class="card-body p-0">
-                              <button type="button" class="btn btn-warning btn-sm">Charla y vídeo</button>
-                              <button type="button" class="btn btn-outline-success">Demostración</button>
+                            <div class="card-body">
+                              <button type="button" class="btn btn-warning btn-sm mb-1">Charla en vivo</button>
+                              
                               <h5 class="card-title">Tejido Wichí </h5>
                               <p class="card-text row-4">Los tejidos de la cultura Wichí se realizan con la fibra de chaguar o caraguatá, una
                                 planta que se usa desde tiempos prehispánicos con fines... </p>
@@ -84,8 +84,8 @@
                           <div class="card-responsive">
                             <img src="imagenes/mapuche-tec.jpeg" class="img-thumbnail rounded" alt="técnica textil mapuche">
                             <div class="card-body">
-                              <button type="button" class="btn btn-warning btn-sm">Charla</button>
-                              <button type="button" class="btn btn-outline-success">Demostración</button>
+                              <button type="button" class="btn btn-warning btn-sm mb-1">Charla en vivo</button>
+                             
                               <h5 class="card-title">Técnica textil Mapuche</h5>
                               <p class="card-text">Los tejidos de la cultura Mapuche se realizan en telar vertical o "witral", que en
                                 lengua mapuche...</p>
@@ -102,8 +102,8 @@
                           <div class="card-responsive">
                             <img src="imagenes/diaguita-tec.jpeg" class="img-thumbnail rounded" alt="técnica textil del NOA">
                             <div class="card-body">
-                              <button type="button" class="btn btn-warning btn-sm">Charla y vídeos</button>
-                              <button type="button" class="btn btn-outline-success" >Demostración</button>
+                              <button type="button" class="btn btn-warning btn-sm mb-1">Charla en vivo</button>
+                              
                               <h5 class="card-title">Técnica textil del NOA</h5>
                               <p class="card-text">El tejido en telar es una de las principales técnicas textiles del NOA. Se arma una
                                 urdimbre, conjunto de hilos paralelos, que se...</p>
