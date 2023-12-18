@@ -1,13 +1,13 @@
 <?php
-/*$servername = "localhost";
+$servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "Oradores_textiles";*/
+$dbname = "Oradores_textiles";
 
-$servername = "localhost";
+/*$servername = "localhost";
 $username = "id21667679_isabel";
 $password = "Isa1234.";
-$dbname = "id21667679_oradores_textiles";
+$dbname = "id21667679_oradores_textiles";*/
 
 
 
@@ -46,7 +46,7 @@ $conn->close();
 <header>
            
  <nav class="navbar navbar-expand-lg navbar-light p-1 text-center">
-  <a class="p-1" href="../index.php"><img src="../imagenes/logo.png" alt="" style="widh:50px; height: 50px;"></a>
+  <a class="p-1" href="../index.php"><img src="../imagenes/logo.png" alt="" style="width:50px; height: 50px;"></a>
   <a class="navbar-brand"><strong>Charlas y talleres</strong></a>
   <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon  text-white"></span>
@@ -79,13 +79,8 @@ $conn->close();
 <div>
 <h1 class="text-center">Lista de Expositores</h1>
 </div>
-<?php 
-if ($result->num_rows > 0) {
-    while ($row = $result->fetch_assoc()) {
-       
-        ?>        
-        
-    <div class="row">
+
+<div class="row">
         <div class="col-12">
 <table class="table table-border table-hover text-center">
   <thead class="bg-warning">
@@ -96,6 +91,29 @@ if ($result->num_rows > 0) {
       <th >Tema</th>
     </tr>
   </thead>
+</div>
+</div>
+
+<?php 
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+       
+        ?>        
+        
+    <!-- <div class="row">
+        <div class="col-12">
+<table class="table table-border table-hover text-center">
+  <thead class="bg-warning">
+    <tr class="bg-warning-subtle">
+      <th >#</th>
+      <th >Nombre</th>
+      <th >Apellido</th>
+      <th >Tema</th>
+    </tr>
+  </thead> -->
+
+  <div>
+            <table class="table table-border table-hover text-center">
   <tbody>
     <tr>
       <th class="col-1"><?= $row['id_orador'] ?></th>
@@ -106,8 +124,9 @@ if ($result->num_rows > 0) {
    
   </tbody>
 </table>
-</div>
-</div>
+
+    </div>
+
 <?php 
 }
 }
